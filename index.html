@@ -21,7 +21,7 @@
         <li><a href="#contact">Kontakt</a></li>
       </ul>
     </nav>
-    <section class="hero" style="background-image: url(./radnja.jpg); ">
+    <section class="hero" style="background-image: url(./pozadina.jpg); background-position: center; background-size: cover;">
       <div class="hero-content">
         <h1>Vaš auto, naša briga</h1>
         <p>Iskusite vrhunsku uslugu servisa. Posvećeni sigurnosti, brzini i vašem zadovoljstvu.</p>
@@ -112,7 +112,7 @@
     const data = Object.fromEntries(formData.entries());
 
     try {
-      const res = await fetch("https://sheetdb.io/api/v1/og1ekofnevnst", { // 👈 ovde ubaci svoj SheetDB link
+      const res = await fetch("https://sheetdb.io/api/v1/og1ekofnevnst", { 
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ data: [data] })
@@ -133,7 +133,7 @@
 
   </section>
 
-  <!-- Footer / Contact -->
+  <!-- Footer / Contact --> 
   <footer id="contact">
     <div class="footer-content">
       <div>
