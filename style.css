@@ -312,4 +312,8 @@ footer {
   .hero-content h1 { font-size: 2rem; }
   .services-section, .reservation-section, footer { padding: 1.2em 1vw; }
   .reservation-form { padding: 1.2em 0.6em; }
+  .navbar ul {
+    display: none;
+  }
 }
+
