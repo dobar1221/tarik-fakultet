@@ -30,7 +30,21 @@ html, body {
   padding: 1em 1vw 1em 7vw;
   background: var(--white);
   box-shadow: var(--shadow);
+  
 }
+@media(max-width: 750px) {
+  .navbar {
+    flex-direction: column;
+    
+  }
+  
+}
+@media(max-width: 450px) {
+  .navbar ul {
+    display: none;
+  }
+}
+
 
 
 .nav-logo {
